@@ -1,0 +1,27 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+section{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+div{
+  border: 2px solid black;
+  height: 200px;
+  width: 30%;
+  text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
