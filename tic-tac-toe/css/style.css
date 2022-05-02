@@ -10,18 +10,28 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-section{
+body{
+  color: white;
+}
+
+.playField{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
-div{
-  border: 2px solid black;
+.box{
+  border: 2px solid white;
   height: 200px;
   width: 30%;
   text-align: center;
+  font-size: 200px;
 }
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+html{
+  background: url(../images/galaxy-background.jpeg);
+}
+
