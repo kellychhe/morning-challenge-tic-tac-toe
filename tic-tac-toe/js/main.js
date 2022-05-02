@@ -76,9 +76,8 @@ const game = {
       game.turn = 0
       document.querySelector('.winner').innerText = ''
       document.querySelector('.playerTurn').innerText = "Player X will begin!"
-      for (let i = 0; i < game.array.length; i++){
-        game.array[i].innerText = ''
-      }
+      game.array.forEach(box => box.style.backgroundColor = 'rgba(54, 8, 92, 0)')
+      game.array.forEach(box => box.innerText = '')
     },
     colorWin(winIndex){
       for (let i = 0; i < this.winningArray[winIndex].length; i++){
