@@ -1,22 +1,17 @@
-# 📊 Morning Challenge: Tic-Tac-Toe
+# Tic Tac Toe 
 
-### Goal: Create a two player Tic-Tac-Toe game. The users should be able to click to place their X or O and if they win the program should mention their win in the DOM. Please make the game as OOP as possible.
+This is a slot machine website. The user initially starts with 1000 credits and can choose to bet 1 or 50 credits to see if they win! The user will win if three ATLA symbols match and they will gain 10 times the betting amount. When the user attempts to cash out on the credits, the web app randomly generates different responses.
+<a href="https://kellychhe-tic-tac-toe.netlify.app/">This project is a tic tac toe game.</a> Tic tac toe is a childhood classic! The user can either play against themselves or play with a friend :)
 
-### How to submit your code for review:
+<img width="1440" alt="Screen Shot 2022-05-30 at 3 12 09 PM" src="https://user-images.githubusercontent.com/102538779/171049236-4aed80b1-7205-4337-8920-d6b803cc4b66.png">
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Languages Used 
+
+This project was created using HTML5, CSS3, and Javascript
+
+I worked on this project with a team. We started with adding nine sections representing the gameboard in the HTML. Then we pseudocoded what we wanted the application to do. We created a game object and used the methods to display the users' moves and to evaluate who won. We used a nested array to store all of the possible winning combinations. We checked if someone won after every turn by looping through the winning combinations and checking if all three corresponding sections contained the same letter.
+
+## Lessons Learned 
+
+My team and I worked hard to create a this game using an object. We had trouble using the "this" keyword. We learned that when you have an event listener, the "this" keyword is connected to the event rather than the object. This was the first big team project we did together. We had some tough times communicating at first, but we later decided that explicit psuedocode and taking turns talking was the best course of action.
